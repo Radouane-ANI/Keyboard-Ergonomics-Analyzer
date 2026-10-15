@@ -1,3 +1,24 @@
+# ⌨️ Keyboard-Ergonomics-Analyzer — Évaluateur Ergonomique de Clavier (Java)
+
+[![Java](https://img.shields.io/badge/Java-17%2B-orange.svg?logo=openjdk)](https://openjdk.org/)
+[![Gradle](https://img.shields.io/badge/Build-Gradle-02303A.svg?logo=gradle)](https://gradle.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Une application Java d'analyse statistique et d'évaluation ergonomique quantitative des dispositions de clavier (AZERTY, QWERTY, Bépo, Dvorak, Colemak).
+
+---
+
+## 📌 Fonctionnalités & Métriques Ergonomiques
+
+- **Analyse Fréquentielle Avancée (`analyseurfrequence`)** : Évaluation des corpus textuels, calcul des occurrences de caractères, digrammes et trigrammes fréquents.
+- **Évaluation de Dispositions (`evaluateurdisposition`)** :
+  - **Distance de déplacement des doigts** : Estimation du parcours total requis pour taper un texte donné.
+  - **Alternance des mains** : Mesure de la fluidité de frappe et équilibrage de charge main gauche / main droite.
+  - **Pénalité de même doigt (*Same-Finger Bigrams*)** : Détection des frappes consécutives sur une même colonne provoquant fatigue et ralentissement.
+  - **Effort par rangée** : Analyse de la répartition des frappes sur la rangée de repos (*home row*) versus les rangées supérieure et inférieure.
+
+---
+
 ## Instructions pour l'exécution
 
 ### Compilation et exécution
